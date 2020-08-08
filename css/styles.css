@@ -36,13 +36,16 @@ footer {
     background-color: #901cad;
 }
 
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+
 
 .site-footer{
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
 }

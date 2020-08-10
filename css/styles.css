@@ -1,27 +1,29 @@
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Lobster", cursive;
 }
 
 h2 {
-    color: #3046C5;
+    color: #3046c5;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #cec8ff;
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#cec8ff, white);
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
     color: white;
     margin: 0;
 }
@@ -36,10 +38,8 @@ footer {
     background-color: #901cad;
 }
 
-
-
-.site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+.site-footer {
+    background-image: linear-gradient(#cec8ff, white);
     padding: 20px 0;
 }
 .carousel-caption {
@@ -47,5 +47,12 @@ footer {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #5637dd;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
